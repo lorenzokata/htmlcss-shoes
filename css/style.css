@@ -43,9 +43,20 @@ a{
 /* main */
 .box{
     position: relative;
-    background-color: red;
     height: 100vh;
     width: 100%;
+}
+
+.rosso{
+    background-color: red;
+}
+
+.verde{
+    background-color: green;
+}
+
+.giallo{
+    background-color: yellow;
 }
 
 .info{
@@ -62,14 +73,18 @@ img{
 }
 
 p{
+    color: green;
     font-family: 'Roboto Mono', monospace;
     font-weight: 700;
     text-align: center;
     text-transform: uppercase;
-    color: yellow;
     font-size: 60px;
-    word-spacing: 9px;  
+    word-spacing: 9px;
+    line-height: 60px;  
+}
 
+p.yellow{
+    color: yellow;
 }
 /* fine main */
 
