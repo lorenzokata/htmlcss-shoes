@@ -27,8 +27,6 @@ li{
     width: 40px;
     margin: 0 20px;
     text-align: center;
-    text-shadow: ;
-
 }
 
 a{
@@ -66,7 +64,7 @@ a{
     width: 100%;
 }
 
-#shoes-1:hover .layover.shoes-1{
+.box:hover > .layover{
     background-color: rgba(0, 0, 0, 0.0);
 }
 
